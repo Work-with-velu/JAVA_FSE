@@ -1,0 +1,10 @@
+PS C:\Users\Sakthivel\OneDrive\Desktop\JAVA_FSE> java -jar cfr.jar DecompileClassFile.class 
+/*
+ * Decompiled with CFR 0.152.
+ */
+public class DecompileClassFile {
+    public static void main(String[] stringArray) {
+        String string = "Java";
+        System.out.println("Hello, " + string + "!");
+    }
+}
