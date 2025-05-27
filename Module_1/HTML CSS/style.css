@@ -1,0 +1,219 @@
+/*Css for the past event card*/
+#mainHeader {
+    background-color: #fdfeff;
+    color:#03045e;
+    padding: 1rem;
+    text-align: center;
+    
+  }
+  h2
+  {
+    font-style: italic;
+  }
+  nav {
+    background-color: white;
+  }
+  
+  #home {
+    background-color: white;
+    padding: 2rem;
+  }
+  
+  #events {
+    background-color: white;
+    padding: 2rem;
+  }
+  
+  #contact {
+    background-color: #ffffff;
+    padding: 2rem;
+    color: #03045e;
+    padding:0
+  }
+  
+  footer {
+    background-color: #03045e;
+    color: white;
+    
+  }
+  
+  form {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    padding: 1.5rem;
+    border-radius: 8px;
+  }
+  #welcomebrand
+  {
+    font-family:"Audiowide", sans-serif;
+    font-weight: bold;
+    color: #03045e;
+  }
+    #navvcontainer
+    {
+      background-color: #ffffff;
+    }
+    .nav-link::after
+    {
+      content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  height: 2px;
+  width:auto;
+  background: linear-gradient(135deg,#030303,#C2B6B6);
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+    }
+    .nav-link:hover::after {
+      transform: scaleX(1);
+  }
+  .hero-image-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .hero-image {
+    max-width: 50%;
+    height: 5%;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+  }
+  
+  .hero-image:hover {
+    transform: scale(1.03);
+  }
+  .events-section {
+    padding: 60px 20px;
+    background: #f8f9fa;
+    text-align: center;
+  }
+  
+  .events-section h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #222;
+  }
+  
+  .events-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    justify-content: center;
+  }
+  
+  .eventcard {
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .eventcard:hover {
+    transform: translateY(-5px);
+  }
+  
+  .event-img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .eventcard h3 {
+    font-size: 1.1rem;
+    margin: 10px 0 5px;
+    color: #333;
+  }
+  
+  .eventcard .host {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .eventcard .event-info {
+    font-size: 0.85rem;
+    color: #444;
+    margin-top: 8px;
+    line-height: 1.5;
+  }
+
+  /*Css for the past event card*/
+  .pastevents {
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 10px;
+    background-color: #fff; /* Optional: adds card-like background */
+  }
+  
+  .pastevents:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .pastevents img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  #clearpref
+  {
+    margin-top: 0;
+  }
+  .bulletin {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  
+    column-count: 2;
+    column-gap: 40px;
+    column-rule: 1px solid #ccc;
+  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #333;
+  }
+  
+  .bulletin h2 {
+    column-span: all;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    font-style: italic;
+    color: #222;
+    text-align: center;
+  }
+  @media (min-width: 768px) {
+    .events-container {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .eventcard {
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 767px) {
+    table td {
+      display: block;
+      width: 100%;
+    }
+
+    table tr {
+      display: block;
+      margin-bottom: 1rem;
+    }
+
+  }
+
+  
+  
+  
